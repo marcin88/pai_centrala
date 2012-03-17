@@ -34,7 +34,7 @@ public class RestClient {
         // User user2= restTemplate.postForObject("http://192.168.1.105:3000/api/users",user, User.class, new Object[]{});
         String id="1";
         //restTemplate.put("http://192.168.1.105:3000/api/users/{id}",user,id);
-restTemplate.delete("http://192.168.1.105:3000/api/users/{id}",user,id);
+
         return "".toString();
     }
 
